@@ -1,0 +1,57 @@
+.detail {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../resources/pokedex-recortada.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* .detail {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    
+} */
+
+.detail img {
+    float: left;
+}
+
+.detail h5,  .detail p{
+    font-size: 8pt;
+}
+
+.detail p {
+    display: flex;
+}
+
+.detail h1 {
+    margin-top: 120px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.volver {
+    border: 1px solid #3663ad;
+    color: #3663ad;
+    background: black;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+
+.volver:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}

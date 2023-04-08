@@ -1,0 +1,112 @@
+
+
+.home{
+    /* border: 50px solid #dd082f; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    /* margin: 0 auto; */
+    margin-left: 320px;
+}
+
+.home h1 {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    background: #dd082f;
+    border-radius: 30px;
+    /* position: fixed; */
+}
+
+.crear{
+    color: #dd082f;
+    text-align: center !important;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    background: #ffcb05;
+    border: 2px solid #3663ad;
+    padding: 10px 20px;
+}
+
+.crear:hover, .refrescar:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.refrescar {
+    color: #3663ad;
+    text-align: center !important;
+    border-radius: 20px;
+    position: fixed;
+    bottom: 110px;
+    right: 20px;
+    width: 120px;
+    background: #ffcb05;
+    border: 2px solid #3663ad;
+    padding: 10px 20px;
+}
+
+.ordenamiento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.filtrado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.ataque{
+    margin: 5px;
+}
+
+.alfabetico {
+    margin: 5px;
+}
+
+
+.tipos {
+    margin: 5px;
+}
+
+.origen {
+    margin: 5px;
+}
+/* .fondo {
+    width: 75%;
+    height: 110px;
+    background: #dd082f;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}*/
+
+/* .izquierda {
+    margin-top: 10px;
+    width: 50px;
+    height: 80%;
+    background: #dd082f;
+    left: 0;
+    position: fixed;
+} */
+
+
+/* .arriba {
+    width: 100%;
+    height: 25px;
+    background: #dd082f;
+    top: 0;
+    left: 0;
+    position: fixed;
+}  */

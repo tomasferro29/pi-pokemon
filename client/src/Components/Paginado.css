@@ -1,0 +1,21 @@
+.paginado{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.pagina {
+    border-radius: 50%;
+    border: 2px solid #3663ad;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.pagina:hover {
+    background-color: #ffcb05;
+    cursor: pointer;
+    transform: scale(0.9);
+}

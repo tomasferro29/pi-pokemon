@@ -1,0 +1,47 @@
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    border: 2px solid #dd082f;
+    width: 50%;
+    margin-left: 300px;
+    padding: 60px 20px;
+}
+
+.create_button{
+    color: #dd082f;
+    text-align: center !important;
+    border-radius: 20px;
+    width: 100px;
+    background: #ffcb05;
+    border: 2px solid #3663ad;
+    padding: 10px 20px;
+}
+
+.back_button {
+    color: #3663ad;
+    text-align: center !important;
+    border-radius: 20px;
+    width: 100px;
+    background: #ffcb05;
+    border: 1px solid #3663ad;
+    padding: 10px 20px;
+    margin-right: 165px;
+    margin-top: 10px;
+}
+
+.create_button:hover, .back_button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.create label {
+    margin-right: 20px;
+}
+
+.peso {
+    margin-left: 20px;
+}
+

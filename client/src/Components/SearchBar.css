@@ -1,0 +1,17 @@
+.search-nav {
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.searchbar input {
+    margin-right: 10px;
+    border: 2px solid #dd082f;
+    border-radius: 20px;
+}
+
+.searchbar button {
+    margin-right: 10px;
+    border: 2px solid #dd082f;
+    border-radius: 20px;
+}
